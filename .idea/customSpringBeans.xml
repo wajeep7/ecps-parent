@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomBeanRegistry">
+    <option name="map">
+      <map>
+        <entry key="&lt;jaxws:server xmlns:jaxws=&quot;http://cxf.apache.org/jaxws&quot; xmlns=&quot;http://www.springframework.org/schema/beans&quot; id=&quot;publish&quot; address=&quot;/publish&quot; serviceClass=&quot;com.rl.ecps.ws.service.EbItemWSService&quot; start=&quot;true&quot;&gt;&#10;  &lt;jaxws:serviceBean&gt;&#10;    &lt;bean class=&quot;com.rl.ecps.ws.service.impl.EbItemWSServiceImpl&quot; lazy-init=&quot;default&quot; autowire=&quot;default&quot; autowire-candidate=&quot;default&quot; /&gt;&#10;  &lt;/jaxws:serviceBean&gt;&#10;  &lt;jaxws:inInterceptors&gt;&#10;    &lt;bean class=&quot;org.apache.cxf.interceptor.LoggingInInterceptor&quot; lazy-init=&quot;default&quot; autowire=&quot;default&quot; autowire-candidate=&quot;default&quot; /&gt;&#10;  &lt;/jaxws:inInterceptors&gt;&#10;  &lt;jaxws:outFaultInterceptors&gt;&#10;    &lt;bean class=&quot;org.apache.cxf.interceptor.LoggingOutInterceptor&quot; lazy-init=&quot;default&quot; autowire=&quot;default&quot; autowire-candidate=&quot;default&quot; /&gt;&#10;  &lt;/jaxws:outFaultInterceptors&gt;&#10;&lt;/jaxws:server&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="publish" />
+                <option name="beanClassName" value="org.apache.cxf.jaxws.spring.NamespaceHandler$SpringServerFactoryBean" />
+                <option name="idAttribute" value="id" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

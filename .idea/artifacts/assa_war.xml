@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="assa:war">
+    <output-path>$PROJECT_DIR$/assa/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>assa</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="assa.war">
+      <element id="artifact" artifact-name="assa:war exploded" />
+    </root>
+  </artifact>
+</component>

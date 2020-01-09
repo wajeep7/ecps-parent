@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ecps-console" />
+        <module name="ecps-core" />
+        <module name="ecps-file" />
+        <module name="ecps-protal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aaa" target="1.7" />
+      <module name="activiti" target="1.7" />
+      <module name="assa" target="1.7" />
+      <module name="ecps-activiti" target="1.7" />
+      <module name="ecps-console" target="1.7" />
+      <module name="ecps-core" target="1.7" />
+      <module name="ecps-file" target="1.7" />
+      <module name="ecps-parent" target="1.7" />
+      <module name="ecps-protal" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

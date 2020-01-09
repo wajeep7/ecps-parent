@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ecps-protal:war">
+    <output-path>$PROJECT_DIR$/ecps-protal/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ecps-protal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ecps-protal-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ecps-protal:war exploded" />
+    </root>
+  </artifact>
+</component>
